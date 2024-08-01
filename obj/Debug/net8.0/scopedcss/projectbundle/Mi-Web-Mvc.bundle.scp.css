@@ -1,0 +1,10 @@
+/* _content/Mi-Web-Mvc/Views/Shared/_Layout.cshtml.rz.scp.css */
+.container[b-vi4aipghwf]{
+  padding: 0;
+  }
+
+@media (min-width: 1200px) {
+    .container[b-vi4aipghwf], .container-lg[b-vi4aipghwf], .container-md[b-vi4aipghwf], .container-sm[b-vi4aipghwf], .container-xl[b-vi4aipghwf] {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,60 @@
+
+<main> 
+    <div class="titulo">   
+        <h2>¡No dudes en contactarnos!</h2>
+    </div>
+    <section class="container_form">
+        <form  class="formulario">
+            <div class="campo">
+                <label for="Nombre">Nombre:</label>
+                <input type="text" name="Nombre" required>
+            </div>
+            <div class="campo">
+                <label for="Apellido">Apellido:</label>
+                <input type="text" name="Apellido" required>
+            </div >
+            <div class="campo">
+                <label for="DNI">DNI:</label>
+                <input type="number" name="DNI" required>
+            </div>
+            <div class="campo">
+                <label for="FechaNacimiento">Fecha de nacimiento:</label>
+                <input type="date" name="FechaNacimiento" required>
+            </div>
+            <div class="campo">
+                <label for="Email">Email:</label>
+                <input type="email" name="Email" required>
+            </div>
+            <div class="campo">
+                <label for="pais">Pais:</label>
+                <input type="text" name="Pais" required>
+            </div>
+            <div class="campo">
+                <label for="ciudad">Ciudad:</label>
+                <input type="text" name="Ciudad" required>
+            </div>
+            <div class="campo">
+                <label for="Telefono">Telefono:</label>
+                <input type="tel" name="Telefono" required>
+            </div>
+            <div class="campo">
+                <label for="DudasAclaraciones">Dudas y aclaraciones:</label>
+                <textarea name="DudasAclaraciones" rows="5" cols="20"></textarea>
+            </div>    
+            <div class="campo">
+                <label for="MotivoContacto">Motivo de contacto:</label>
+                <select name="MotivoContacto" required>
+                    <option value="">Seleccione un motivo</option>
+                    <option value="Consulta">Consulta</option>
+                    <option value="Reclamo">Reclamo</option>
+                    <option value="Solicitud de información">Solicitud de información</option>
+                    <option value="Otro">Otro</option>
+                </select>
+            </div>
+            <div class="botones">
+                <input type="submit" class="enviar">
+                <input type="reset" class="borrar">
+            </div>
+        </form>
+    </section>
+</main>
